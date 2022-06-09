@@ -5,20 +5,6 @@
 	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/mission_briefing_greenharvest" unload="true"/>
 	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/greenharvest_floor1" unload="true"/>
 	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/greenharvest_floor2" unload="true"/>
-	<texture force="true" path="units/payday2/props/str_prop_park_tree_elm/str_prop_park_tree_elm_leafs_autumn_df" unload="true"/>
-	<texture force="true" path="units/payday2/props/str_prop_park_hedge_buxbom/str_prop_park_hedge_buxbom_df" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_01b_df" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_01b_nm" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_df" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_nm" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_part_01_df" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_part_01_nm" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_wall_1_df" unload="true"/>
-	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_wall_1_nm" unload="true"/>
-	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_df" unload="true"/>
-	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_nm" unload="true"/>
-	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_openhours_df" unload="true"/>
-	<texture force="true" path="units/payday2/props/bnk_prop_entrance_carpet/bnk_prop_entrance_carpet_df" unload="true"/>
 	<material_config force="true" path="units/payday2/architecture/bnk/bnk_int" unload="true"/>
 	<unit force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
 	<object force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
