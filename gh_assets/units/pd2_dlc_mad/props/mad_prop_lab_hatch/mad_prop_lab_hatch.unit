@@ -1,0 +1,11 @@
+<unit type="mad" slot="1">
+<network sync="spawn"/>
+	<object file="units/pd2_dlc_mad/props/mad_prop_lab_hatch/mad_prop_lab_hatch" />
+	<dependencies>
+		<depends_on bnk="soundbanks/regular_sfx" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

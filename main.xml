@@ -1,0 +1,111 @@
+<table name="res_greenharvest">
+	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
+	<Localization default="english.txt" directory="loc"/>
+	<level ai_group_type="america" id="res_greenharvest" max_bags="54">
+		<add file="levels/res_greenharvest/add.xml"/>
+		<assets/>
+		<hooks directory="hooks">
+			<hook file="preplanningtweakdata.lua" source_file="lib/tweak_data/preplanningtweakdata"/>
+		</hooks>
+		<packages>
+			<value_node value="levels/instances/unique/dah/dah_security_room3/world/world"/>
+			<value_node value="levels/instances/unique/brb/player_van/world/world"/>
+			<value_node value="levels/instances/unique/brb/player_van/world"/>
+			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world/world"/>
+			<value_node value="levels/narratives/short1/stage2/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_2/world/world"/>
+			<value_node value="levels/narratives/e_framing_frame/stage_3/world/world"/>
+			<value_node value="levels/narratives/bain/revenge/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/editor_only/editor_only"/>
+			<value_node value="levels/instances/unique/holly_2/safe_van/world/world"/>
+			<value_node value="levels/instances/unique/hox_fbi_it_office/world/world"/>
+			<value_node value="levels/instances/unique/hox_estate_window_arched/world/world"/>
+			<value_node value="levels/instances/unique/kenaz/security_room/world/world"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/pc_only/pc_only"/>
+			<value_node value="levels/instances/unique/mus_first_barrier/world/world"/>
+			<value_node value="levels/narratives/bain/arena/backdrop/backdrop"/>
+			<value_node value="levels/narratives/armadillo/arm_cro/pc_only/pc_only"/>
+			<value_node value="levels/narratives/h_firestarter/stage_3/world"/>
+			<value_node value="levels/instances/unique/are_booth_door/world/world"/>
+			<value_node value="levels/instances/unique/chill/bodhi_stage_01/world/world"/>
+			<value_node value="levels/instances/unique/are_elevator/world/world"/>
+			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
+			<value_node value="levels/narratives/elephant/chew/e_three/e_three"/>
+			<value_node value="levels/instances/unique/pbr/pbr_mountain_arch/world/world"/>
+			<value_node value="levels/narratives/classics/run/dhruva_art/dhruva_art"/>
+			<value_node value="levels/instances/unique/pet_window_planks/world/world"/>
+			<value_node value="levels/instances/unique/pet_planks/world/world"/>
+			<value_node value="levels/narratives/butcher/thebomb/stage_3/editor_only/editor_only"/>
+			<value_node value="levels/narratives/classics/glace/editor_only/editor_only"/>
+			<value_node value="levels/narratives/continental/fish/editor_only/editor_only"/>
+			<value_node value="levels/narratives/vlad/moon/collision/collision"/>
+			<value_node value="levels/narratives/classics/run/backdrop/backdrop"/>
+			<value_node value="levels/instances/unique/fish/kitchen_cabinet/world/world"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<narrative briefing_event="" contact="custom" id="res_greenharvest">
+		<chain>
+			<table level_id="res_greenharvest" type="d" type_id="heist_type_assault"/>
+		</chain>
+		<contract_cost>
+			<value_node value="4000"/>
+			<value_node value="8000"/>
+			<value_node value="20000"/>
+			<value_node value="40000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+			<value_node value="100000"/>
+		</contract_cost>
+		<crimenet_callouts>
+			<value_node value="nothing"/>
+		</crimenet_callouts>
+		<crimenet_videos>
+			<value_node value="cn_branchbank2"/>
+		</crimenet_videos>
+		<debrief_event>
+			<value_node value=""/>
+		</debrief_event>
+		<experience_mul>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="1"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+			<value_node value="3"/>
+		</experience_mul>
+		<max_mission_xp>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+			<value_node value="8000"/>
+		</max_mission_xp>
+		<min_mission_xp>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+			<value_node value="2000"/>
+		</min_mission_xp>
+		<payout>
+			<value_node value="6000"/>
+			<value_node value="12000"/>
+			<value_node value="30000"/>
+			<value_node value="50000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+			<value_node value="60000"/>
+		</payout>
+	</narrative>
+</table>

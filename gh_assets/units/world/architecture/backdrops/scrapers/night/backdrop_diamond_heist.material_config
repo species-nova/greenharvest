@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="backdrop_diamond_heist" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" version="2">
+        <diffuse_texture file="units/world/architecture/backdrops/scrapers/night/backdrop_diamond_heist_df"/>
+        <variable value="match" type="scalar" name="intensity"/>
+    </material>
+</materials>

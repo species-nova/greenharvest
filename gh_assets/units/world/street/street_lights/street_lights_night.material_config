@@ -1,0 +1,19 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only:INSTANCED" version="2"/>
+    <material name="trafic_lights" decal_material="sheet_metal" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP:VERTEX_COLOR" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+        <diffuse_texture file="units/world/street/trafic_lights/trafic_lights_walk_df"/>
+        <bump_normal_texture file="units/world/street/trafic_lights/trafic_lights_walk_nm"/>
+    </material>
+    <material name="street_lights_night" decal_material="sheet_metal" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP:SELF_ILLUMINATION" version="2">
+        <bump_normal_texture file="units/world/street/trafic_lights/trafic_lights_walk_nm"/>
+        <variable value="match" type="scalar" name="il_multiplier"/>
+        <self_illumination_texture file="units/world/street/street_lights/street_lights_night_il"/>
+        <diffuse_texture file="units/world/street/trafic_lights/trafic_lights_walk_df"/>
+    </material>
+    <material name="light_cone" decal_material="sheet_metal" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:DOUBLE_SIDED:INSTANCED:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/world/street/street_lights/cone_light_df"/>
+        <variable value="2" type="scalar" name="falloff_exp"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+    </material>
+</materials>

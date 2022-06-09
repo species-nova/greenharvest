@@ -1,0 +1,6 @@
+<unit type="clc" slot="1" >
+    <object file="units/payday2/architecture/clc/clc_bdrop_capital_hill_mid_il_new" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

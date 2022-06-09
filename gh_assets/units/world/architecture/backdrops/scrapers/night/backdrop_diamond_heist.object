@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/backdrops/scrapers/night/backdrop_diamond_heist" orientation_object="rp_diamond_heist_backdrop" />
+  <graphics>
+    <object name="g_diamond_heist_backdrop" enabled="true" />
+  </graphics>
+</dynamic_object>

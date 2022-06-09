@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/are/are_off_int" orientation_object="rp_are_off_int_floor_plastic_gensec_room" />
+	<bodies>
+		<body name="BodyName" enabled="true" template="static">
+			<object name="rp_are_off_int_floor_plastic_gensec_room" />
+			<object name="g_g" collision_type="box" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="plastic">
+		<decal_mesh name="g_g" enabled="true" material="plastic" />
+	</decal_surfaces>
+
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>

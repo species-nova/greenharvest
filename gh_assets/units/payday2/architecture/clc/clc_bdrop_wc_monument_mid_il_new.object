@@ -1,0 +1,11 @@
+<dynamic_object>
+    <diesel orientation_object="rp_clc_bdrop_wc_monument_mid_il_new" materials="units/payday2/architecture/clc/clc_capital_monument_il" />
+    <bodies>
+        <body enabled="true" template="editor" name="body0" >
+            <object collision_type="box" name="c_box_01" />
+        </body>
+    </bodies>
+    <graphics>
+        <object enabled="true" name="g_monument" />
+    </graphics>
+</dynamic_object>

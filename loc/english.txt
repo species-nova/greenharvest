@@ -1,0 +1,71 @@
+{
+	"heist_res_greenharvest_name" : "TOP SECRET",
+	"heist_res_greenharvest_brief" : "TOP SECRET BRIEF",
+	"heist_res_greenharvest_name" : "CONFIDENTIAL",
+	"heist_res_greenharvest_brief" : "CONFIDENTIAL BRIEF",
+	
+	"gh_lobby" : "MAIN LOBBY",
+	"gh_teller" : "TELLER",
+	"gh_manager" : "MANAGER OFFICE",
+	"gh_homeext" : "RESIDENTIAL EXTERIOR",
+	"gh_homeint" : "RESIDENTIAL INTERIOR",
+	"gh_stairway" : "STAIRWAY",
+	"gh_office1" : "PRIMARY TRANSACTIONS",
+	"gh_office2" : "SECONDARY TRANSACTIONS",
+	"gh_office3" : "CIT OFFICE",
+	"gh_upvault1" : "CIT VAULT A",
+	"gh_upvault2" : "CIT VAULT B",
+	"gh_mainvault" : "SECURE: PRIMARY DEPOSIT",
+	"gh_theback" : "EXTERIOR STORAGE",
+	
+	"menu_pp_greenharvest_floor1" : "GROUND LEVEL",
+	"menu_pp_greenharvest_floor2" : "ROOFTOP / SECOND FLOOR",
+	
+	"gh_van_default" : "PLAN A: PARKING LOT",
+	"gh_van_default_desc" : "Arrive and Escape from the Parking Lot, During Plan: A.",
+	"gh_van_alley" : "PLAN A: SOUTH ALLEY",
+	"gh_van_alley_desc" : "Arrive and Escape from the South Alley, During Plan: A.",
+	"gh_van_industry" : "PLAN A: WEST ALLEY",
+	"gh_van_industry_desc" : "Arrive and Escape from the West Alley, During Plan: A.",
+	"gh_van_north" : "PLAN A: NORTH ROAD",
+	"gh_van_north_desc" : "Arrive and Escape from the North Road, During Plan: A.",
+	
+	"gh_backup" : "PLAN B: ACE-PILOT",
+	"gh_backup_desc" : "Hire an ace-pilot for plan: B.",
+	"menu_pp_acepilot" : "ACE PILOT: ROOFTOP",
+	
+	"gh_sniper" : "PLAN B: SNIPER",
+	"gh_sniper_desc" : "Hire a sniper to cover chosen locations.",
+	"menu_pp_sniper1" : "SNIPER COVER: NORTH ROAD",
+	"menu_pp_sniper2" : "SNIPER COVER: SOUTH ROAD",
+	"menu_pp_sniper3" : "SNIPER COVER: PARKING LOT",
+	
+	"gh_ladders" : "EXTERNAL LADDER",
+	"gh_ladders_desc" : "Fake a safety inpection before the heist and get a new ladder installed.",
+	"menu_pp_ladder1" : "SOUTH LADDER",
+	"menu_pp_ladder2" : "NORTH LADDER",
+	
+	"gh_keycard" : "KEYCARD",
+	"gh_keycard_desc" : "Insider will leave a keycard in the selected location.",
+	"menu_pp_keycard1" : "BANK ENTRANCE",
+	"menu_pp_keycard2" : "PARKING LOT SOUTH",
+	"menu_pp_keycard3" : "PARKING LOT NORTH-WEST",
+	"menu_pp_keycard4" : "NORTH ENTRANCE",
+	
+	"gh_camaccess" : "CAMERA ACCESS",
+	"gh_camaccess_desc" : "An insider hooks up an exterier camera access point before the heist starts.\n\nCamera access will spot all important items, civilians or enemies if they are in view.",
+	"menu_pp_camaccess1" : "SOUTH CAMERA ACCESS",
+	"menu_pp_camaccess2" : "NORTH CAMERA ACCESS",
+	
+	"menu_pp_ammo_office1" : "Primary Office",
+	"menu_pp_ammo_office2" : "Secondary Office",
+	"menu_pp_ammo_office3" : "CIT Office",
+	"menu_pp_medic_office1" : "Primary Office",
+	"menu_pp_medic_office2" : "Secondary Office",
+	"menu_pp_medic_office3" : "CIT Office",
+	"menu_pp_nades_office1" : "Primary Office",
+	"menu_pp_nades_office2" : "Secondary Office",
+	"menu_pp_nades_office3" : "CIT Office",
+	
+	"look_dad" : "no_errors"
+}

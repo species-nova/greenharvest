@@ -1,0 +1,10 @@
+<materials version="3">
+    <material render_template="effect:DIFFUSE0_TEXTURE" name="mat_spa_backdrop_scrapers_il" version="2">
+        <variable type="scalar" name="intensity" value="streetlight"/>
+        <diffuse_texture file="units/world/architecture/backdrops/scrapers/night/backdrop_scrapers_night_bridge_df"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" name="mat_spa_glow" version="2">
+        <diffuse_texture file="units/pd2_dlc_spa/architecture/ext/spa_ext_apartment_backdrop/spa_backdrop_city_glow_df"/>    
+        <variable type="scalar" name="intensity" value="dimlight"/>
+    </material>
+</materials>

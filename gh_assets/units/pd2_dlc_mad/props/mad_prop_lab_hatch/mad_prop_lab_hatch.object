@@ -1,0 +1,38 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_mad/props/mad_prop_lab_hatch/mad_prop_lab_hatch" orientation_object="rp_mad_prop_lab_hatch" />
+	<sequence_manager file="units/pd2_dlc_mad/props/mad_prop_lab_hatch/mad_prop_lab_hatch" />
+
+	<animations>
+		<animation_group name="hatch" enabled="false">
+			<object name="a_hatch" />
+			<object name="a_hinge" />
+			<object name="a_hinge_telescope" />
+		</animation_group>
+	</animations>
+
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mad_prop_lab_hatch" />
+			<object name="c_box_base_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_base_04" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="a_hatch" />
+			<object name="c_box_hatch" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="animated">
+			<object name="a_hinge" />
+			<object name="c_capsule_01" collision_type="capsule" padding="-2.5" />
+			<object name="c_capsule_02" collision_type="capsule" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_hinge_02" enabled="true" />
+		<object name="g_hinge_01" enabled="true" />
+		<object name="g_hatch" enabled="true" />
+		<object name="g_base" enabled="true" />
+		<object name="g_cables" enabled="true"/>
+	</graphics>
+</dynamic_object>

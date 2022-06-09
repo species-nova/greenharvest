@@ -1,0 +1,16 @@
+<materials version="3">
+    <material name="mat_capital_monument_il" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BACKDROP:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/payday2/architecture/clc/clc_capital_monument_df"/>
+        <bump_normal_texture file="units/payday2/architecture/clc/clc_capital_monument_nm"/>
+        <self_illumination_texture file="units/payday2/architecture/clc/clc_capital_monument_il"/>
+        <variable value="reddot" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_capital_monument_il_new" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_BACKDROP" version="2">
+        <diffuse_texture file="units/payday2/architecture/clc/clc_capital_monument_new_df"/>
+        <bump_normal_texture file="units/payday2/architecture/clc/clc_capital_monument_nm"/>
+    </material>
+    <material version="2" render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE" name="mat_capital_monument_il_new_effect">
+        <diffuse_texture file="units/payday2/architecture/clc/clc_capital_monument_new_il"/>
+        <variable value="desklight" type="scalar" name="intensity"/>
+    </material>
+</materials>

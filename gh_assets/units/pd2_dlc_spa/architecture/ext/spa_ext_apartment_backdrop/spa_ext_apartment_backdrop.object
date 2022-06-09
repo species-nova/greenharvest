@@ -1,0 +1,7 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_spa/architecture/ext/spa_ext_apartment_backdrop/spa_ext_apartment_backdrop" orientation_object="rp_spa_ext_apartment_backdrop" />
+	<graphics>
+		<object name="g_il" enabled="true" />	
+        <object name="g_glow" enabled="true" />		
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="backdrop_scrapers" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:RL_BACKDROP:VERTEX_COLOR" version="2">
+        <diffuse_texture file="units/world/architecture/backdrops/scrapers/backdrop_scrapers_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="0.75000005960464 0.591000020504 3.8000001907349" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

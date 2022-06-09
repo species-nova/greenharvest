@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/architecture/backdrops/scrapers/backdrop_scrapers" orientation_object="rp_backdrop_skyscrapers_02" />
+  <graphics>
+    <object name="g_backdrop_scrapers" enabled="true"/>
+  </graphics>
+</dynamic_object>

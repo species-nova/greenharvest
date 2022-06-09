@@ -1,0 +1,94 @@
+<table directory="gh_assets">
+	<texture force="true" path="lights/test/testlight_df" unload="true"/>
+	<texture force="true" path="lights/art_lights/vaulttable_light_df" unload="true"/>
+	<texture force="true" path="lights/art_lights/2x1office_light_df" unload="true"/>
+	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/mission_briefing_greenharvest" unload="true"/>
+	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/greenharvest_floor1" unload="true"/>
+	<texture force="true" path="guis/dlcs/greenharvest/textures/pd2/pre_planning/greenharvest_floor2" unload="true"/>
+	<texture force="true" path="units/payday2/props/str_prop_park_tree_elm/str_prop_park_tree_elm_leafs_autumn_df" unload="true"/>
+	<texture force="true" path="units/payday2/props/str_prop_park_hedge_buxbom/str_prop_park_hedge_buxbom_df" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_01b_df" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_01b_nm" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_df" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/lcm_b/lcm_b_ext_rooftar_a_nm" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_part_01_df" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_part_01_nm" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_wall_1_df" unload="true"/>
+	<texture force="true" path="units/payday2/architecture/bnk/bnk_int_wall_1_nm" unload="true"/>
+	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_df" unload="true"/>
+	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_nm" unload="true"/>
+	<texture force="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_openhours_df" unload="true"/>
+	<texture force="true" path="units/payday2/props/bnk_prop_entrance_carpet/bnk_prop_entrance_carpet_df" unload="true"/>
+	<material_config force="true" path="units/payday2/architecture/bnk/bnk_int" unload="true"/>
+	<unit force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<object force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<model force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<material_config force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<sequence_manager force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<cooked_physics force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static" unload="true"/>
+	<texture force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_therm_static/gen_pku_therm_static_df" unload="true"/>
+	<unit force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<object force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<model force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<material_config force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<sequence_manager force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<cooked_physics force="true" path="units/pd2_mod_grnhvt/pickups/gen_pku_winch_static/gen_pku_winch_static" unload="true"/>
+	<cooked_physics force="true" path="units/vehicles/animated_cars/police_ny_bank_anim" unload="true"/>
+	<model force="true" path="units/vehicles/animated_cars/police_ny_bank_anim" unload="true"/>
+	<unit force="true" path="units/vehicles/animated_cars/police_ny_bank_anim" unload="true"/>
+	<object force="true" path="units/vehicles/animated_cars/police_ny_bank_anim" unload="true"/>
+	<material_config force="true" path="units/vehicles/animated_cars/police_ny_noinstance" unload="true"/>
+	<texture force="true" path="units/vehicles/police_ny/vehicle_police_ny_df" unload="true"/>
+	<texture force="true" path="units/vehicles/police_ny/vehicle_police_ny_nm" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_2_op" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_df" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_nm" unload="true"/>
+	<texture force="true" path="units/payday2/glass/glass_clear_vehicle_op" unload="true"/>
+	<texture force="true" path="units/payday2/glass/glass_clear_vehicle_df" unload="true"/>
+	<texture force="true" path="units/vehicles/police_ny/saftblandare_df" unload="true"/>
+	<texture force="true" path="units/vehicles/police_ny/saftblandare_edf" unload="true"/>
+	<sequence_manager force="true" path="units/vehicles/animated_cars/police_ny_bank_anim" unload="true"/>
+	<effect force="true" path="effects/particles/bullet_hit/misc/misc_tire" unload="true"/>
+	<effect force="true" path="effects/particles/window/vehicle_window" unload="true"/>
+	<effect force="true" path="effects/particles/environment/cop_car_lights" unload="true"/>
+	<cooked_physics force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<model force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<unit force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<object force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<sequence_manager force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<material_config force="true" path="units/vehicles/police_armored_truck/vehicle_police_armored_truck" unload="true"/>
+	<texture force="true" path="units/vehicles/police_armored_truck/police_armored_truck_o_df" unload="true"/>
+	<texture force="true" path="units/vehicles/police_armored_truck/police_armored_truck_nm" unload="true"/>
+	<texture force="true" path="units/vehicles/police_armored_truck/logo_o_df" unload="true"/>
+	<texture force="true" path="units/glass/vehicle_glass_op" unload="true"/>
+	<texture force="true" path="units/glass/vehicle_glass_df" unload="true"/>
+	<texture force="true" path="units/world/street/street_lights/cone_light_df" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_2_op" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_df" unload="true"/>
+	<texture force="true" path="units/vehicles/window/glass_shattered_nm" unload="true"/>
+	<texture force="true" path="units/payday2/glass/glass_clear_vehicle_op" unload="true"/>
+	<texture force="true" path="units/payday2/glass/glass_clear_vehicle_df" unload="true"/>
+	<model force="true" path="units/vehicles/animated_cars/vehicle_armored_truck_slaughterhouse_tireyard_arive/vehicle_armored_truck_slaughterhouse_tireyard_arive" unload="true"/>
+	<unit force="true" path="units/vehicles/animated_cars/vehicle_armored_truck_slaughterhouse_tireyard_arive/vehicle_armored_truck_slaughterhouse_tireyard_arive" unload="true"/>
+	<object force="true" path="units/vehicles/animated_cars/vehicle_armored_truck_slaughterhouse_tireyard_arive/vehicle_armored_truck_slaughterhouse_tireyard_arive" unload="true"/>
+	<sequence_manager force="true" path="units/vehicles/animated_cars/vehicle_armored_truck_slaughterhouse_tireyard_arive/vehicle_armored_truck_slaughterhouse_tireyard_arive" unload="true"/>
+	<material_config force="true" path="units/vehicles/animated_cars/vehicle_armored_truck_slaughterhouse_tireyard_arive/vehicle_armored_truck_slaughterhouse_tireyard_arive" unload="true"/>
+	<unit_load name="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_01">
+		<cooked_physics force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_01" unload="true"/>
+		<unit force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_01" unload="true"/>
+		<object force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_01" unload="true"/>
+		<material_config force="true" path="units/world/architecture/backdrops/scrapers/backdrop_scrapers" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02">
+		<cooked_physics force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" unload="true"/>
+		<unit force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" unload="true"/>
+		<object force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_02" unload="true"/>
+		<material_config force="true" path="units/world/architecture/backdrops/scrapers/backdrop_scrapers" unload="true"/>
+	</unit_load>
+	<unit_load name="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03">
+		<cooked_physics force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03" unload="true"/>
+		<unit force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03" unload="true"/>
+		<object force="true" path="units/world/architecture/backdrops/scrapers/backdrop_skyscrapers_03" unload="true"/>
+		<material_config force="true" path="units/world/architecture/backdrops/scrapers/backdrop_scrapers" unload="true"/>
+	</unit_load>
+</table>
