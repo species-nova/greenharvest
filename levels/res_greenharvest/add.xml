@@ -1447,9 +1447,32 @@
 	<cooked_physics force="false" path="units/payday2/props/str_prop_street_sign_roof_gh/str_prop_street_sign_roof_gh_02_v3" unload="true"/>
 	<texture load="true" path="units/payday2/props/str_prop_street_sign_roof_gh/str_prop_street_sign_roof_gh_02_v3" unload="true"/>
 	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door" type="unit">
-		<unit path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
-		<object path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
 		<material_config path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
 		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_security_door/dah_security_door"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/vault/vault_door_set" type="unit">
+		<material_config path="units/world/props/bank/vault/vault"/>
+		<object path="units/world/props/bank/vault/vault_door_set"/>
+		<sequence_manager path="units/world/props/bank/vault/vault_door_set"/>
+		<unit path="units/world/props/bank/vault/vault_door_set"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors" type="unit">
+		<material_config path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+		<sequence_manager path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+		<unit path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door" type="unit">
+		<unit path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/fire/thermite_infinite"/>
+		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
+		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
 	</add>
 </table>
