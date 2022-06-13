@@ -1466,13 +1466,32 @@
 		<unit path="units/pd2_dlc_vit/architecture/vit_int/vit_int_glass_vault/vit_int_glass_vault_doors"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door" type="unit">
-		<unit path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
-		<object path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
-		<material_config path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
-		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
-		<bnk path="soundbanks/regular_sfx"/>
 		<effect load="true" path="effects/payday2/particles/fire/thermite_infinite"/>
 		<effect load="true" path="effects/payday2/particles/impacts/sparks/sparks_random_02_slow"/>
 		<effect load="true" path="effects/payday2/particles/fire/thermite_fade"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_bomb_shelter_door/chas_prop_bomb_shelter_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/vault" type="unit">
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<gui path="guis/timer_gui"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
 	</add>
 </table>
