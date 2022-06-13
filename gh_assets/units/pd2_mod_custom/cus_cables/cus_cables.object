@@ -1,0 +1,15 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/cus_cables/cus_cables" orientation_object="rp_wire" />
+	<sequence_manager file="units/pd2_mod_custom/cus_cables/cus_cables" />
+	<bodies>
+		<body name="body_base" enabled="true" template="editor">
+			<object name="g_red" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_red" enabled="true" />
+		<object name="g_yellow" enabled="true" />
+		<object name="g_green" enabled="true" />
+		<object name="g_white" enabled="true" />
+	</graphics>
+</dynamic_object>

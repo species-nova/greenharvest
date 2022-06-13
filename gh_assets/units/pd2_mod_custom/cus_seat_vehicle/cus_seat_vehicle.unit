@@ -1,0 +1,46 @@
+<unit type="vhc" slot="1">
+	<object file="units/pd2_mod_custom/cus_seat_vehicle/cus_seat_vehicle" />
+	<network sync="bodies" />
+
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData">
+		  <var name="only_visible_in_editor" value="true" />
+		</extension>
+		<extension name="sync_unit_data" class="SyncUnitData" />
+		<extension name="network" class="NetworkBaseExtension" />
+		<extension class="UnitDamage" name="damage" />
+		
+		<extension name="interaction" class="DrivingInteractionExt">
+			<var name="tweak_data" value="driving_drive" />
+			<var name="_interact_object" value="rp_root"/>
+			<var name="_ray_object_names" type="table" >
+				<var value="interact_driver"/>
+			</var>
+		</extension>
+		
+        <extension name="character_damage" class="VehicleDamage"/>
+		
+		<extension name="attention" class="AIAttentionObject">
+			<var name="_attention_obj_name" value="attention"/>
+		</extension>
+		
+ 		<extension class="VehicleDrivingExt" name="vehicle_driving">
+			<var name="inertia_modifier" value="4.0"/>
+			<var name="tweak_data" value="editor_seat"/>
+ 		</extension>
+		
+		<extension name="camera" class="VehicleCamera" >
+			<var name="_camera_object_names" type="table" >
+				<var value="attention"/>
+			</var>
+ 			<var name="_back_camera_object_name" value="attention"/>
+		</extension>	
+		
+	</extensions>
+	
+	<sounds>
+		<default_soundsource source="snd_engine"/>
+		<soundsource name="engine" source="snd_engine" />
+	</sounds>
+	
+</unit>

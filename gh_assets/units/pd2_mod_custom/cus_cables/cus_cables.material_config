@@ -1,0 +1,5 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_wire" version="2">
+        <diffuse_texture file="units/pd2_dlc_chill/architecture/chl_killhouse/chl_genric_wires_df"/>
+    </material>
+</materials>

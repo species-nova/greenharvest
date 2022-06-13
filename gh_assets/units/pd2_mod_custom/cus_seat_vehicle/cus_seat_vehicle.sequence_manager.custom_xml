@@ -1,0 +1,40 @@
+<table>
+	<unit>
+		<sequence editable_state="false" name="'not_driving'" triggable="false">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="false" name="'driving'" triggable="false">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_enabled'" triggable="true">
+			<interaction enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_interaction_disabled'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'local_driving_enter'" triggable="false">
+		</sequence>
+		<sequence editable_state="false" name="'local_driving_exit'" triggable="false">
+		</sequence>
+		
+		<sequence editable_state="true" name="'state_vis_icon_entry_enabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_entry_disabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_enabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_loot_disabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_enabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_icon_repair_disabled'" triggable="true">
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_repaired'" triggable="false">
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_med_damaged'" triggable="false">
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_full_damaged'" triggable="false">
+		</sequence>
+	</unit>
+</table>

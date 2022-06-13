@@ -1,0 +1,79 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks"/>
+	
+	<bodies>
+		<!-- Enabled by default -->
+		<body name="editor" enabled="true" template="editor">
+			<object name="c_box_full" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<!-- Regular -->
+		<body name="body_plank_1" enabled="false" template="static">
+			<object name="g_plank_full1" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_plank_2" enabled="false" template="static">
+			<object name="g_plank_full2" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_plank_3" enabled="false" template="static">
+			<object name="g_plank_full3" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_plank_4" enabled="false" template="static">
+			<object name="g_plank_full4" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_plank_5" enabled="false" template="static">
+			<object name="g_plank_full5" collision_type="convex" padding="-2.5"/>
+		</body>
+		<body name="body_plank_6" enabled="false" template="static">
+			<object name="g_plank_full6" collision_type="convex" padding="-2.5"/>
+		</body>
+
+		<!-- Vision -->
+		<body name="ai_vision_block" add_ray_type="ai_vision" remove_ray_type="body" enabled="false" template="static">
+			<object name="c_box_full" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="ai_vision_block_damaged" add_ray_type="ai_vision" remove_ray_type="body" enabled="false" template="static">
+			<object name="c_box_sides_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_sides_02" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="hardwood" >
+		<decal_mesh name="g_plank_full1" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_full2" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_full3" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_full4" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_full5" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_full6" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg1" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg2" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg3" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg4" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg5" enabled="false" material="hardwood" />
+		<decal_mesh name="g_plank_dmg6" enabled="false" material="hardwood" />
+	</decal_surfaces>
+	
+	<graphics>
+		<graphic_group name="grp_interaction" enabled="true" culling_object="g_icon">
+			<lod_object name="plank_icon">
+					<object name="g_icon" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		
+		<object name="g_plank_full1"	enabled="true"	shadow_caster="true"/>
+		<object name="g_plank_full2"	enabled="true"	shadow_caster="true"/>
+		<object name="g_plank_full3"	enabled="true"	shadow_caster="true"/>
+		<object name="g_plank_full4"	enabled="true"	shadow_caster="true"/>
+		<object name="g_plank_full5"	enabled="true"	shadow_caster="true"/>
+		<object name="g_plank_full6"	enabled="true"	shadow_caster="true"/>
+		
+		<object name="g_plank_dmg1"		enabled="false"	shadow_caster="true"/>
+		<object name="g_plank_dmg2"		enabled="false"	shadow_caster="true"/>
+		<object name="g_plank_dmg3"		enabled="false"	shadow_caster="true"/>
+		<object name="g_plank_dmg4"		enabled="false"	shadow_caster="true"/>
+		<object name="g_plank_dmg5"		enabled="false"	shadow_caster="true"/>
+		<object name="g_plank_dmg6"		enabled="false"	shadow_caster="true"/>
+	</graphics>
+	
+</dynamic_object>

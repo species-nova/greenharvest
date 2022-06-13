@@ -1,0 +1,251 @@
+<table>
+	<unit>
+		<variables>
+			<var_planks value="0"/>
+		</variables>
+		
+		
+		<filter name="'filter_3_or_less'">
+			<check value="vars.var_planks <= 3"/>
+		</filter>
+		
+		
+		<sequence name=" 'interact' ">
+			<set_variables var_planks="6" />
+			<run_sequence name=" 'show_all_planks' "/>
+		</sequence>
+		
+		
+		<sequence name=" 'show_all_planks' ">
+			<interaction enabled="false"/>
+			<object enabled="true" name=" 'g_plank_full1' "/>
+			<object enabled="true" name=" 'g_plank_full2' "/>
+			<object enabled="true" name=" 'g_plank_full3' "/>
+			<object enabled="true" name=" 'g_plank_full4' "/>
+			<object enabled="true" name=" 'g_plank_full5' "/>
+			<object enabled="true" name=" 'g_plank_full6' "/>
+			<object enabled="false" name=" 'g_plank_dmg1' "/>
+			<object enabled="false" name=" 'g_plank_dmg2' "/>
+			<object enabled="false" name=" 'g_plank_dmg3' "/>
+			<object enabled="false" name=" 'g_plank_dmg4' "/>
+			<object enabled="false" name=" 'g_plank_dmg5' "/>
+			<object enabled="false" name=" 'g_plank_dmg6' "/>
+			<body enabled="true" name=" 'ai_vision_block' "/>
+			<body enabled="false" name=" 'ai_vision_block_damaged' "/>
+			<body enabled="true" name=" 'body_plank_1' "/>
+			<body enabled="true" name=" 'body_plank_2' "/>
+			<body enabled="true" name=" 'body_plank_3' "/>
+			<body enabled="true" name=" 'body_plank_4' "/>
+			<body enabled="true" name=" 'body_plank_5' "/>
+			<body enabled="true" name=" 'body_plank_6' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full1' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full2' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full3' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full4' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full5' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_full6' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg1' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg2' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg3' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg4' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg5' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg6' "/>
+			<graphic_group name="'grp_interaction'" visibility="false"/>
+			<sound action="'play'" event="'barricade_window_end'" object="'interact'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_1' ">
+			<endurance bullet="15" explosion="2" melee="1" melee="1">
+				<run_sequence name=" 'destroy_plank_1' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_1' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full1' "/>
+			<object enabled="true" name=" 'g_plank_dmg1' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full1' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg1' "/>
+			<body enabled="false" name=" 'body_plank_1' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect1'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect1')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect1')" rotation="object_rot('e_effect1')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_2' ">
+			<endurance bullet="15" explosion="2" melee="1">
+				<run_sequence name=" 'destroy_plank_2' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_2' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full2' "/>
+			<object enabled="true" name=" 'g_plank_dmg2' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full2' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg2' "/>
+			<body enabled="false" name=" 'body_plank_2' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect2'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect2')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect2')" rotation="object_rot('e_effect2')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_3' ">
+			<endurance bullet="15" explosion="2" melee="1">
+				<run_sequence name=" 'destroy_plank_3' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_3' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full3' "/>
+			<object enabled="true" name=" 'g_plank_dmg3' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full3' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg3' "/>
+			<body enabled="false" name=" 'body_plank_3' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect3'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect3')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect3')" rotation="object_rot('e_effect3')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_4' ">
+			<endurance bullet="15" explosion="2" melee="1">
+				<run_sequence name=" 'destroy_plank_4' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_4' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full4' "/>
+			<object enabled="true" name=" 'g_plank_dmg4' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full4' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg4' "/>
+			<body enabled="false" name=" 'body_plank_4' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect4'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect4')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect4')" rotation="object_rot('e_effect4')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_5' ">
+			<endurance bullet="15" explosion="2" melee="1">
+				<run_sequence name=" 'destroy_plank_5' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_5' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full5' "/>
+			<object enabled="true" name=" 'g_plank_dmg5' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full5' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg5' "/>
+			<body enabled="false" name=" 'body_plank_5' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect5'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect5')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect5')" rotation="object_rot('e_effect5')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<body name=" 'body_plank_6' ">
+			<endurance bullet="15" explosion="2" melee="1">
+				<run_sequence name=" 'destroy_plank_6' "/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name=" 'destroy_plank_6' " triggable="true">
+			<set_variables var_planks="vars.var_planks - 1" />
+			<set_damage bullet="0" />
+			<set_damage explosion="0" />
+			<set_damage melee="0" />
+			<object enabled="false" name=" 'g_plank_full6' "/>
+			<object enabled="true" name=" 'g_plank_dmg6' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full6' "/>
+			<decal_mesh enabled="true" name=" 'g_plank_dmg6' "/>
+			<body enabled="false" name=" 'body_plank_6' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="true" name=" 'ai_vision_block_damaged' "/>
+			<sound action="'play'" event="'bar_wood_fence_finnished'" object="'e_effect6'"/>
+			<effect name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" parent="object('e_effect6')" position="v()"/>
+			<spawn_unit name="'units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris'" position="object_pos('e_effect6')" rotation="object_rot('e_effect6')"/>
+			<run_sequence filter="'filter_3_or_less'" name="'enable_interaction'"/>
+		</sequence>
+		
+		<!---->
+		<sequence editable_state="true" name=" 'enable_interaction' " triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_interaction'" visibility="true"/>
+		</sequence>
+		
+		<sequence editable_state="true" name=" 'enable_interaction_hide_planks' " triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'grp_interaction'" visibility="true"/>
+			<object enabled="false" name=" 'g_plank_full1' "/>
+			<object enabled="false" name=" 'g_plank_full2' "/>
+			<object enabled="false" name=" 'g_plank_full3' "/>
+			<object enabled="false" name=" 'g_plank_full4' "/>
+			<object enabled="false" name=" 'g_plank_full5' "/>
+			<object enabled="false" name=" 'g_plank_full6' "/>
+			<object enabled="false" name=" 'g_plank_dmg1' "/>
+			<object enabled="false" name=" 'g_plank_dmg2' "/>
+			<object enabled="false" name=" 'g_plank_dmg3' "/>
+			<object enabled="false" name=" 'g_plank_dmg4' "/>
+			<object enabled="false" name=" 'g_plank_dmg5' "/>
+			<object enabled="false" name=" 'g_plank_dmg6' "/>
+			<body enabled="false" name=" 'ai_vision_block' "/>
+			<body enabled="false" name=" 'ai_vision_block_damaged' "/>
+			<body enabled="false" name=" 'body_plank_1' "/>
+			<body enabled="false" name=" 'body_plank_2' "/>
+			<body enabled="false" name=" 'body_plank_3' "/>
+			<body enabled="false" name=" 'body_plank_4' "/>
+			<body enabled="false" name=" 'body_plank_5' "/>
+			<body enabled="false" name=" 'body_plank_6' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full1' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full2' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full3' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full4' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full5' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_full6' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg1' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg2' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg3' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg4' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg5' "/>
+			<decal_mesh enabled="false" name=" 'g_plank_dmg6' "/>
+		</sequence>
+		
+	</unit>
+</table>

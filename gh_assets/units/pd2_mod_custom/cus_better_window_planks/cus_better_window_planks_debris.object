@@ -1,0 +1,28 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks" orientation_object="rp_planks_debris" />
+	<sequence_manager file="units/pd2_mod_custom/cus_better_window_planks/cus_better_window_planks_debris" />	
+    <bodies>
+        <body enabled="true" template="debris" name="plank_piece_01" >
+			<object name="c_convex_01" collision_type="convex" mass="18" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="debris" name="plank_piece_02" >
+			<object name="c_convex_02" collision_type="convex" mass="12" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="debris" name="plank_piece_03" >
+			<object name="c_convex_03" collision_type="convex" mass="10" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="debris" name="plank_piece_04" >
+			<object name="c_convex_04" collision_type="convex" mass="16" padding="-2.5"/>
+        </body>
+        <body enabled="true" template="debris" name="plank_piece_05" >
+			<object name="c_convex_05" collision_type="convex" mass="25" padding="-2.5"/>
+        </body>
+    </bodies>
+    <graphics>
+        <object name="g_plank_piece_01" enabled="true"/>
+        <object name="g_plank_piece_02" enabled="true"/>
+        <object name="g_plank_piece_03" enabled="true"/>
+        <object name="g_plank_piece_04" enabled="true"/>
+        <object name="g_plank_piece_05" enabled="true"/>
+    </graphics>
+</dynamic_object> 

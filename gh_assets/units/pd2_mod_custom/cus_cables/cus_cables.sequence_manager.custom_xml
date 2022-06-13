@@ -1,0 +1,38 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object enabled="false" name="'g_red'"/>
+			<object enabled="false" name="'g_green'"/>
+			<object enabled="false" name="'g_yellow'"/>
+			<object enabled="false" name="'g_white'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_red'" triggable="true">
+			<object enabled="true" name="'g_red'"/>
+			<object enabled="false" name="'g_green'"/>
+			<object enabled="false" name="'g_yellow'"/>
+			<object enabled="false" name="'g_white'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_green'" triggable="true">
+			<object enabled="false" name="'g_red'"/>
+			<object enabled="true" name="'g_green'"/>
+			<object enabled="false" name="'g_yellow'"/>
+			<object enabled="false" name="'g_white'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_yellow'" triggable="true">
+			<object enabled="false" name="'g_red'"/>
+			<object enabled="false" name="'g_green'"/>
+			<object enabled="true" name="'g_yellow'"/>
+			<object enabled="false" name="'g_white'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_white'" triggable="true">
+			<object enabled="false" name="'g_red'"/>
+			<object enabled="false" name="'g_green'"/>
+			<object enabled="false" name="'g_yellow'"/>
+			<object enabled="true" name="'g_white'"/>
+		</sequence>
+	</unit>
+</table>
